@@ -78,17 +78,17 @@ img {
     justify-content: center;
 }
 
-.main-links {
-    background-color: white;
-    padding: 2em;
-}
 
 .space-evenly {
     justify-content: space-evenly;
 }
 
+.footer-links {
+    background-color: white;
+    padding: 2em;
+}
 
-footer {
+.footer-blurb {
     background-color: #F4F6F8;
     text-align: center;
     padding: 2em;
