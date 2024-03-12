@@ -4,3 +4,73 @@
     --offWhite: (#F4F6F8);
     --yellow: (#FAFD61);
 }
+
+* {
+    outline: red 1px dotted;
+}
+
+header {
+    background-color: #061130;
+}
+
+button {
+    background-color: unset;
+    border: unset;
+    background-color: #1C4BC4;
+    color: white;
+    border-radius: 0.5em;
+    outline: unset;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.header-links>a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    vertical-align: middle;
+
+}
+
+main {
+
+    color: white;
+    background-color: #061130;
+}
+
+
+img {
+    width: 100%;
+}
+
+.margin-edit {
+    margin: unset;
+}
+
+.width-45 {
+    width: 45%;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.main-links {
+    background-color: white;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+
+footer {
+    background-color: #F4F6F8;
+    text-align: center;
+}
