@@ -9,10 +9,12 @@ body {
     display: flex;
     flex-direction: column;
     height: 100dvh;
+    background-color: #061130;
+
 }
 
 * {
-    outline: red 1px dotted;
+    /* outline: red 1px dotted; */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -27,6 +29,7 @@ button {
     color: white;
     border-radius: 0.5em;
     outline: unset;
+    padding: .5em;
 }
 
 .display-flex {
@@ -41,12 +44,15 @@ button {
     text-decoration: none;
     color: white;
     margin-right: 20px;
-    vertical-align: middle;
+}
+
+.header-links {
+    align-items: center;
 
 }
 
 main {
-
+    flex-grow: 1;
     color: white;
     background-color: #061130;
 }
@@ -66,16 +72,23 @@ img {
     margin-bottom: .8em;
 }
 
-.width-45 {
-    width: 45%;
+.width-50 {
+    width: 50%;
 }
 
-.margin-right {
-    margin-right: 3%;
+.side-margins {
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .justify-center {
     justify-content: center;
+}
+
+.services-text {
+    color: #FAFD61;
+    font-weight: 400;
+
 }
 
 
